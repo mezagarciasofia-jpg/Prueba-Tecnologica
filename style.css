@@ -1,0 +1,45 @@
+div{
+  background-color:blue;
+  Width:100px;
+  Height:100px;
+  border-radius: 50%;
+  position:relative;
+  top:200px;
+  left:200px;
+  animation-name:circulo;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
+}
+
+.circulo2{
+  Width:50px;
+  Height:50px;
+}
+
+
+
+
+
+
+
+
+@keyframes circulo{
+  0%{
+    top:50px;
+    background-color:blue;
+  }
+  100%{
+    left:500px;
+    background-color:pink;
+  }
+}
+@keyframes circulo2{
+  50%{
+    top:50px;
+    background-color:yellow;
+  }
+  100%{
+    left:500px;
+    background-color:green;
+  }
+}
